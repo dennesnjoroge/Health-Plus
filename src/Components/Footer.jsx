@@ -86,17 +86,12 @@ function Footer() {
       </div>
 
       <div className="ft-copyright">
-        <p>
-          © 2013-2023 Health+. All rights reserved. Built by{" "}
-          <a href="https://github.com/Alkaison" target="_blank" rel="noreferrer" style={{color: "#1A8EFD"}}>
-            Ganesh Maurya
-          </a>
-        </p>
+        <p>&copy; {new Date().getFullYear()} Health+. All rights reserved.</p>
 
         <ul className="ft-social-links">
           <li>
             <a
-              href="https://linkedin.com/in/Alkaison/"
+              href="https://linkedin.com/"
               title="LinkedIn"
               target="_blank"
               rel="noopener noreferrer"
@@ -130,7 +125,7 @@ function Footer() {
 
           <li>
             <a
-              href="https://x.com/Alkaison/"
+              href="https://x.com"
               title="Twitter"
               target="_blank"
               rel="noopener noreferrer"

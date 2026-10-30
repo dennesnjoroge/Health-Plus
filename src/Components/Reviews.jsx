@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { customerReviews } from "../Scripts/reviews";
+import { customerReviews } from "../data/reviews";
 import "../Styles/Reviews.css";
 
 function Reviews() {
